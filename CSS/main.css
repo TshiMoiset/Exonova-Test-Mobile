@@ -1,0 +1,76 @@
+.heroImgText {
+	display: flex;
+}
+
+.headLine {
+	color: white;
+	/*width: 50%;
+	padding: 0 150px;*/
+}
+
+.bottomText {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: white;
+}
+
+.bottomText div {
+	display: inline-block;
+	margin: 0 20px;
+	align-items: center;
+}
+
+/*---------------- HeroImg Button -------------------*/
+
+.heroImgText a {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	border: 3px double white;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+/*
+
+.heroImg a::before {
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: -2px;
+	width: calc(100% + 4px);
+	height: calc(100% - 12px);
+	background-color: black;
+	transition: 0.5s ease-in-out;
+	transform: scaleY(1);
+}
+
+.heroImg a:hover::before {
+	transform: scaleY(0);
+}
+
+.heroImg a::after {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: 6px;
+	height: calc(100% + 4px);
+	width: calc(100% - 12px);
+	background-color: white;
+	transition: 0.5s ease-in-out;
+	transform: scaleX(1);
+}
+
+.heroImg a:hover::after {
+	transform: scaleX(0);
+}
+
+.heroImg a span {
+	position: relative;
+	z-index: 3;
+}
+*/

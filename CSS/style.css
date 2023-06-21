@@ -1,0 +1,69 @@
+html {
+	scroll-behavior: smooth;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.indexBody {
+	padding: 0;
+	margin: 0;
+	min-height: 100vh;
+	width: 99%;
+	/*Ändra till 99% om det blir problem. */
+	background-image: url("../Images/Moon/TheMoon.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+/*main {
+	font-family: "Couture";
+}*/
+
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: white;
+}
+
+@font-face {
+	font-family: "Beon";
+	src: url("../Font/BeonMedium-6d51.otf");
+}
+
+@font-face {
+	font-family: "Exodar";
+	src: url("../Font/ExodarOutline-9Yy27.ttf");
+}
+
+@font-face {
+	font-family: "Inertia";
+	src: url("../Font/Inertia.otf");
+}
+
+@font-face {
+	font-family: "Couture";
+	src: url("../Font/Couture-Bold\,otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+/* font-family: "Montserrat", sans-serif;*/
+
+/*background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+		url("../Images/StarBackground1.jpg");*/

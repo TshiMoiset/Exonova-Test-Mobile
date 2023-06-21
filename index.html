@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Exonova founded in 2021 to revolutionize the space technology and bring mankind to Mars">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exonova</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/indexMain.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/mediaQueries.css">
+    <script defer src="JS/style.js"></script>
+
+    <link rel="shortcut icon" href="Logo/ExoNova.NoTitle.jpg" type="image/x-icon">
+
+</head>
+<body class="indexBody" id="top">
+
+	<header id="navBar">
+		<div class="screenLogo-NavButton" id="screenLogo-NavButton">
+			<div class="screenLogo"><ul><li><a href="#top">Exonova</a></li></ul></div>
+			<div class="navButton" id="navButton" onclick="openNavbar()">&#9776;</div>
+		</div>
+
+		<div class="navigation" id="navigation">
+			<nav class="navigationLinks" id="navigationLinks">
+				<ul>
+					<li><a href="#" class="hoverLine">Missions</a></li>
+					<li><a href="#" class="hoverLine">Launches</a></li>
+					<div class="logo"><li><a href="#top">Exonova</a></li></div>
+					<li><a href="#" class="hoverLine">Spacecrafts</a></li>
+					<li><a href="#" class="hoverLine">Goals</a></li>
+				</ul>
+			</nav>
+
+			<div class="hamburgerNav" id="hamburgerNavbarLinks">
+				<div class="closeButton" id="closeButton" onclick="closeNavbar()">&#10006;</div>
+
+				<div class="hamburgerNavContent">
+					<ul>
+						<li><a href="#">Missions</a></li>
+						<hr class="fullHR">
+						<li><a href="#">Launches</a></li>
+						<hr class="fullHR">
+						<li><a href="#">Spacecrafts</a></li>
+						<hr class="fullHR">
+						<li><a href="#">Goals</a></li>
+						<hr class="fullHR">
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="indexHeroImage">
+			<div class="indexHeroImageQuote"><p>Man must rise above the Earth, to the top of the atmosphere and beyond</p></div>
+			<div class="indexHeroImageButton"><ul><li><a href="#">Launch Journey</a></li></ul></div>
+		</div>
+
+	  	<div class="mainDestinations">
+
+			<div class="destinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 1</h3>
+							<p>Experience the blue planet from space</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="destinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 2</h3>
+							<p>Travel through la lunar distance in an instant</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="destinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 3</h3>
+							<p>The red planet is waiting for us</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</main>
+
+	<footer>
+		
+		<div class="footerButtonContainer">
+			<div class="hiddenButtonText">Hidden</div>
+			<div class="openFooterDestinationBtn" id="openFooterDestinationBtn" onclick="openFooterDestinaitonContainer()"><button></button></div>
+			<div class="hiddenButtonText">Hidden</div>
+		</div>
+
+		<div class="footerDestinationContainer" id="footerDestinationContainer">
+
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 1</h3>
+							<p>Experience the blue planet from space</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 2</h3>
+							<p>Travel through la lunar distance in an instant</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationText">
+				<ul>
+					<li>
+						<a href="#">
+							<h3>Destination 3</h3>
+							<p>The red planet is waiting for us</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="footerLine">
+				<hr class="halfHR">
+			</div>
+
+			<div class="footerDestinationBottom">
+				
+				<div class="footertText">
+					<ul>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Media Inquiries</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#">Sign In</a></li>
+					</ul>
+				</div>
+				
+				<div class="footerLogoCopyright">
+					<span class="footerLogo">Exonova</span>
+					<span class="copyright">&copy; 2021</span>
+				</div>
+				
+				<div class="closeFooterDestinationBtn" id="closeFooterDestinationBtn" onclick="closeFooterDestinaitonContainer()">&#10006;</div>
+
+			</div>
+		</div>
+
+	</footer>
+
+	<!--<footer>
+		<div class="footerContent">
+
+			<div class="footerBtn" id="openFooterBtn" onclick="openFooter()">&#10094;</div>
+
+
+			<div class="mediaQFooterBtn">
+				<div onclick="openFooter()">&#10094;</div>
+			</div>
+
+			<div class="realFooter" id="realFooter">
+
+				
+				<div class="leftFooter">
+					<span class="footerLogo">ExoNova</span>
+					<span class="copyright">&copy; 2021</span>
+				</div>
+				<div class="rightFooter">
+					<ul>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Media Inquiries</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Career</a></li>
+						<li><a href="#"><div class="closeFooter" id="closeFooterBtn" onclick="closeFooter()">&#10006;</div></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="footerBtn2" id="openFooterBtn2" onclick="openFooter2()">&#10094;</div>
+
+		<div class="realFooter2" id="realFooter2">
+
+			<div class="realFooter2Top">
+				<div class="footerDestinations2">
+					<div class="footerText2 leftText2">
+						<h3>Destination 1</h3>
+						<p>Experience the blue planet from space</p>
+					</div>
+					<div class="footerText2 centerText2">
+						<h3>Destination 2</h3>
+						<p>Travel through la lunar distance in an instant</p>
+					</div>
+					<div class="footerText2 rightText2">
+						<h3>Destination 3</h3>
+						<p>The red planet is waiting for us</p>
+					</div>
+				</div>
+
+				<div class="realFooter2Bottom">
+					<div class="leftFooter2">
+						<span class="footerLogo2">ExoNova</span>
+						<span class="copyright2">&copy; 2021</span>
+					</div>
+					<div class="rightFooter2">
+						<ul>
+							<li><a href="#">Terms of Use</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Media Inquiries</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#"><div class="closeFooter2" id="closeFooterBtn2" onclick="closeFooter2()">&#10006;</div></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+</body>
+</html>

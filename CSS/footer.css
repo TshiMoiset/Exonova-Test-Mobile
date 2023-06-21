@@ -1,0 +1,135 @@
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	transition: 500ms;
+}
+
+footer h3 {
+	font-family: "Couture";
+}
+
+.footerButtonContainer {
+	display: none;
+	align-items: center;
+	justify-content: space-evenly;
+	position: fixed;
+	padding: 20px;
+	width: 100%;
+	bottom: 0;
+	box-sizing: border-box;
+}
+
+.hiddenButtonText {
+	user-select: none;
+	visibility: hidden;
+}
+
+.openFooterDestinationBtn button {
+	padding: 5px 100px 3px 100px;
+	border: 2px solid white;
+	border-radius: 20px;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.openFooterDestinationBtn button:hover {
+	background-color: transparent;
+}
+
+.footerDestinationContainer {
+	display: none;
+	flex-direction: column;
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	top: 0%;
+	right: 0%;
+	width: 100%;
+	height: 100%;
+	transition: 500ms;
+	background-color: rgba(0, 0, 0, 0.906);
+}
+
+.footerDestinationContainer li {
+	list-style: none;
+}
+
+.footerDestinationContainer a {
+	color: white;
+	text-decoration: none;
+}
+
+.footerDestinationContainer ul {
+	padding: 20px 15px;
+}
+
+.footertText ul {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 0px;
+	width: 100%;
+}
+
+.footertText li {
+	padding: 20px;
+	font-size: 16px;
+}
+
+.footertText a {
+	transition: 300ms;
+}
+
+.footertText a:hover {
+	color: rgba(201, 199, 199, 0.87);
+}
+
+.closeFooterDestinationBtn {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+	padding: 5px;
+	left: 46%;
+	cursor: pointer;
+	color: white;
+	transition: 300ms;
+	user-select: none;
+}
+
+.closeFooterDestinationBtn:hover {
+	transform: rotate(-360deg);
+}
+
+.footerLogoCopyright {
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.halfHR {
+	margin: 10px;
+	height: 2px;
+	border-width: 0;
+	border-style: solid;
+	background-color: white;
+	color: white;
+	width: 70%;
+}
+
+.footerLine {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.footerLogo {
+	font-family: "Inertia";
+}
+
+.footertText,
+.copyright {
+	font-family: "Montserrat", sans-serif;
+}

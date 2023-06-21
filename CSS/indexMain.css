@@ -1,0 +1,148 @@
+.indexHeroImage {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.indexHeroImageQuote {
+  font-size: xx-large;
+  letter-spacing: 1px;
+  font-family: "Couture";
+}
+
+.indexHeroImageQuote p {
+  width: 50%;
+}
+
+.indexHeroImage li {
+  list-style: none;
+}
+
+.indexHeroImage ul {
+  padding: 0;
+}
+
+.indexHeroImageButton {
+  font-size: smaller;
+  font-family: "Couture";
+}
+
+.indexHeroImageButton a {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 20px 42px;
+  transition: 500ms;
+  position: relative;
+}
+
+.indexHeroImageButton a::before,
+.indexHeroImageButton a::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.indexHeroImageButton a::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transform: translate(-100%, 50%);
+}
+
+.indexHeroImageButton a:after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  transform: translate(100%, -50%);
+}
+
+.indexHeroImageButton a:hover:before,
+.indexHeroImageButton a:hover:after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.indexHeroImageButton a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+/*----------------------------- Destinationer -------------------------------*/
+
+.mainDestinations h3 {
+  font-size: larger;
+  font-family: "Couture";
+}
+
+.mainDestinations li {
+  list-style: none;
+}
+
+.mainDestinations ul {
+  padding: 0px;
+  margin: 15px;
+}
+
+.mainDestinations {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  padding: 30px 30px;
+  width: 100%;
+  bottom: 0;
+}
+
+.destinationText {
+  position: relative;
+  transition: 500ms;
+}
+
+.destinationText a {
+  text-decoration: none;
+  color: white;
+}
+
+.destinationText::before,
+.destinationText::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+
+.destinationText::before {
+  content: "";
+  right: 0;
+  top: 0;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  transform: translate(-100%, 50%);
+}
+
+.destinationText::after {
+  content: "";
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  transform: translate(100%, -50%);
+}
+
+.destinationText:hover::before,
+.destinationText:hover::after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
